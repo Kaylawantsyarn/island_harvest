@@ -1,0 +1,22 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="F2PxRQpoxNZK-gOKjIxc">
+    <mxGraphModel dx="1030" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3cYdU7-jz4-TM6Xfyl_n-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Delivery" vertex="1">
+          <mxGeometry height="225" width="310" x="80" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="3cYdU7-jz4-TM6Xfyl_n-2" parent="3cYdU7-jz4-TM6Xfyl_n-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;font face=&quot;Arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14.6667px; white-space-collapse: preserve;&quot;&gt;delivery_id --&amp;gt; delivery.delivery_id &lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14.6667px; white-space-collapse: preserve;&quot;&gt;order_id --&amp;gt;delivery.order_id&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14.6667px; white-space-collapse: preserve;&quot;&gt;driver_id --&amp;gt; delivery.driver_id&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14.6667px; white-space-collapse: preserve;&quot;&gt;vehicle_id --&amp;gt;deliver.vehicle_id&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14.6667px; white-space-collapse: preserve;&quot;&gt;schedule_date --&amp;gt;delivery.schedule_date&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14.6667px; white-space-collapse: preserve;&quot;&gt;delivered_at --&amp;gt; delivery.delivered_at&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14.6667px; white-space-collapse: preserve;&quot;&gt;status  --&amp;gt;delivery.status&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14.6667px; white-space-collapse: preserve;&quot;&gt;received_by--&amp;gt;delivery.received_by&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14.6667px; white-space-collapse: preserve;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="165" width="310" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3cYdU7-jz4-TM6Xfyl_n-3" parent="3cYdU7-jz4-TM6Xfyl_n-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="8" width="310" y="191" as="geometry" />
+        </mxCell>
+        <mxCell id="3cYdU7-jz4-TM6Xfyl_n-4" parent="3cYdU7-jz4-TM6Xfyl_n-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="markdelivered()" vertex="1">
+          <mxGeometry height="26" width="310" y="199" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
